@@ -127,12 +127,12 @@ p {
 	padding: 0.2em 0 1.2em;
 }
 
-h1 {font: normal 3em 'Lato', sans-serif;}
-h2 {font: normal 2.2em 'Lato', sans-serif;}
-h3 {font: normal 2em 'Lato', sans-serif;}
-h4 {font: normal 1.8em 'Lato', sans-serif;}
-h5 {font: normal 1.6em 'Lato', sans-serif;}
-h6 {font: bold 1.2em 'Lato', sans-serif;}
+h1 {font: normal 2em 'Lato', sans-serif;}
+h2 {font: normal 1.75em 'Lato', sans-serif;}
+h3 {font: normal 1.5em 'Lato', sans-serif;}
+h4 {font: normal 1.4em 'Lato', sans-serif;}
+h5 {font: normal 1.3em 'Lato', sans-serif;}
+h6 {font: bold  1.2em 'Lato', sans-serif;}
 
 h1,h2,h3,h4,h5,h6 {margin-bottom: 0.2em;}
 
