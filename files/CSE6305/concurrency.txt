@@ -1,0 +1,22 @@
+Java Concurrency
+
+Concurrency vs Parallelism
+https://www.youtube.com/watch?v=FChZP09Ba4E
+
+Java Memory Model
+https://www.youtube.com/watch?v=Z4hMFBvCDV4
+
+Threads and Locks
+https://docs.oracle.com/javase/specs/jls/se8/html/jls-17.html
+
+Guarded Blocks
+https://docs.oracle.com/javase/tutorial/essential/concurrency/guardmeth.html
+
+
+Python Concurrency
+
+https://realpython.com/python-gil/
+
+https://hackernoon.com/concurrent-programming-in-python-is-not-what-you-think-it-is-b6439c3f3e6a
+
+https://wiki.python.org/moin/GlobalInterpreterLock
