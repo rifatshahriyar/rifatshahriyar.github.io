@@ -62,7 +62,11 @@ table { border-collapse: collapse; border-spacing: 0; }
   src: local("☺"), url(https://www.hpi.uni-potsdam.de/hirschfeld/assets/Fontin_Sans_B.otf) format("opentype");
 }
 
-  
+@font-face {
+  font-family: 'Intel-Clear';
+  font-style: normal;
+  src:  url('intel-clear-latin.woff2') format('woff2');
+}
 
 html {
 	font-size: 70%;  /* reset 1em to 10px */
@@ -72,11 +76,11 @@ html {
 body {
 	background: #353530;
 	color: #5A5A50; 
-        font-family: 'Fontin Sans', sans-serif;
+        font-family: 'Intel-Clear', sans-serif;
         /*font-family: "Trebuchet MS", Helvetica, sans-serif;*/
         /*font-family: Optima, Segoe, 'Segoe UI', Candara, Calibri, Arial, sans-serif;*/
         /*font-family: Candara, Calibri, Segoe, 'Segoe UI', Optima, Arial, sans-serif;*/
-	font-size: 18px;
+	font-size: 16px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 400;
