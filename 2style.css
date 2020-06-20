@@ -26,42 +26,6 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; content:
 none; } :focus { outline: 0; } ins { text-decoration: none; } del { text-decoration: line-through; }
 table { border-collapse: collapse; border-spacing: 0; }
 
-
-/* 
-   General 
-------------------------------------------------------------------- */
-
-/* A font by Jos Buivenga (exljbris) -> www.exljbris.com */
-@font-face {
-  font-family: 'Fontin Sans';
-  font-style: normal;
-  font-weight: 400;
-  unicode-range: U+0000-00AB, U+00AD-00FF, U+0131, U+0141-0142, U+0152-0153, U+0160-0161, U+0178, U+017D-017E, U+0192, U+02C6-02C7, U+02D8-02DD, U+2013-2014, U+2018-201A, U+201C-201E, U+2020-2022, U+2026, U+2030, U+2039-203A, U+2044, U+20AC, U+2122, U+2126, U+2202, U+221E, U+222B;
-  src: local("☺"), url(https://www.hpi.uni-potsdam.de/hirschfeld/assets/Fontin_Sans_R.otf) format("opentype");
-}
-@font-face {
-  font-family: 'Fontin Sans';
-  font-style: italic;
-  font-weight: 400;
-  unicode-range: U+0000-00AB, U+00AD-00FF, U+0131, U+0141-0142, U+0152-0153, U+0160-0161, U+0178, U+017D-017E, U+0192, U+02C6-02C7, U+02D8-02DD, U+2013-2014, U+2018-201A, U+201C-201E, U+2020-2022, U+2026, U+2030, U+2039-203A, U+2044, U+20AC, U+2122, U+2126, U+2202, U+221E, U+222B;
-  src: local("☺"), url(https://www.hpi.uni-potsdam.de/hirschfeld/assets/Fontin_Sans_I.otf) format("opentype");
-}
-
-@font-face {
-  font-family: 'Fontin Sans';
-  font-style: normal;
-  font-weight: 700;
-  unicode-range: U+0000-00AB, U+00AD-00FF, U+0131, U+0141-0142, U+0152-0153, U+0160-0161, U+0178, U+017D-017E, U+0192, U+02C6-02C7, U+02D8-02DD, U+2013-2014, U+2018-201A, U+201C-201E, U+2020-2022, U+2026, U+2030, U+2039-203A, U+2044, U+20AC, U+2122, U+2126, U+2202, U+221E, U+222B;
-  src: local("☺"), url(https://www.hpi.uni-potsdam.de/hirschfeld/assets/Fontin_Sans_B.otf) format("opentype");
-}
-@font-face {
-  font-family: 'Fontin Sans';
-  font-style: italic;
-  font-weight: 700;
-  unicode-range: U+0000-00AB, U+00AD-00FF, U+0131, U+0141-0142, U+0152-0153, U+0160-0161, U+0178, U+017D-017E, U+0192, U+02C6-02C7, U+02D8-02DD, U+2013-2014, U+2018-201A, U+201C-201E, U+2020-2022, U+2026, U+2030, U+2039-203A, U+2044, U+20AC, U+2122, U+2126, U+2202, U+221E, U+222B;
-  src: local("☺"), url(https://www.hpi.uni-potsdam.de/hirschfeld/assets/Fontin_Sans_B.otf) format("opentype");
-}
-
 @font-face {
   font-family: 'Intel-Clear';
   font-style: normal;
@@ -99,12 +63,12 @@ p {
 	padding: 0.2em 0 1.2em;
 }
 
-h1 {font: normal 2em 'Fontin Sans', sans-serif;}
-h2 {font: normal 1.75em 'Fontin Sans', sans-serif;}
-h3 {font: normal 1.5em 'Fontin Sans', sans-serif;}
-h4 {font: normal 1.4em 'Fontin Sans', sans-serif;}
-h5 {font: normal 1.3em 'Fontin Sans', sans-serif;}
-h6 {font: bold  1.2em 'Fontin Sans', sans-serif;}
+h1 {font: normal 2em 'Intel-Clear', sans-serif;}
+h2 {font: normal 1.75em 'Intel-Clear', sans-serif;}
+h3 {font: normal 1.5em 'Intel-Clear', sans-serif;}
+h4 {font: normal 1.4em 'Intel-Clear', sans-serif;}
+h5 {font: normal 1.3em 'Intel-Clear', sans-serif;}
+h6 {font: bold  1.2em 'Intel-Clear', sans-serif;}
 
 h1,h2,h3,h4,h5,h6 {margin-bottom: 0.2em;}
 
@@ -187,7 +151,7 @@ input, textarea, select {
 	border-color: #777 #CCC #CCC #777;
 	border-style: solid;
 	border-width: 1px;
-	font: normal 1em 'Fontin Sans', sans-serif;
+	font: normal 1em 'Intel-Clear', sans-serif;
 	padding: 4px;
 }
 
@@ -197,7 +161,7 @@ input.button {
 	border-color: #BBB #888 #888 #CCC;		
 	color: #444;
 	cursor: pointer;
-	font: normal 1em 'Fontin Sans', sans-serif;
+	font: normal 1em 'Intel-Clear', sans-serif;
 	margin-top: 5px;
 	padding: 6px;
 	width: auto;
@@ -350,7 +314,7 @@ img.right {margin: 0 0 15px 12px;}
 	border-right: 1px solid #AFA69C;
 	color: #654;
 	float: left;
-	font: bold 1em 'Fontin Sans', sans-serif;
+	font: bold 1em 'Intel-Clear', sans-serif;
 	margin-right: 1px;
 	padding: 10px 12px;
 	text-align: center;
@@ -476,7 +440,7 @@ background: url('img/grain.gif');
 	text-align: center;
 	width: 44px;
 }
-.archive_post_day {font: normal 1.8em 'Fontin Sans', sans-serif;}
+.archive_post_day {font: normal 1.8em 'Intel-Clear', sans-serif;}
 
 
 /* 
